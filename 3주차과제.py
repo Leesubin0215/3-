@@ -21,7 +21,7 @@ def btn_click():
     labelRes1.place(x=21, y=86)
     labelRes2 = tkinter.Label(root, text=str2, font=("맑은 고딕",10))
     labelRes2.place(x=21, y=116)
-
+#tkinter 기본문 시작
 root = tkinter.Tk()
 root.title("CU")
 root.geometry("800x300")
@@ -69,7 +69,8 @@ entry6.place(x=315, y=135)
 entry10.place(x=418, y=135)
 entry11.place(x=508, y=135)
 entry12.place(x=604, y=135)
-
+#계산 버튼
 btn =tkinter.Button(root, text="계산", font=("맑은 고딕",10), command=btn_click)
 btn.place(x=50, y=200,width=630, height=28)
+#tkinter 기본문 끝
 root.mainloop()
